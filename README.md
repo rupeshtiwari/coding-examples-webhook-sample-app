@@ -72,3 +72,30 @@ Now if you start github repo you will receive the message to your discord channe
 
 ![](https://i.imgur.com/61FAXpr.gif)
 
+You can visit the web hook payloads at this address http://localhost:4040/inspect/http from ngrok. 
+
+
+
+Here is the [code so far](https://github.com/rupeshtiwari/coding-examples-webhook-sample-app/commit/e81078d4a4bc5c64a2b4d59471d4d2a89eee168c)
+
+## Next lets read the avtar url from Github payload
+
+When we star/un-star we can read the `avtar_url` of the user and show that in discord. 
+
+
+### How to start your local server in watch mode? 
+
+- Install `npm i nodemon -g` 
+- Then run `nodemon start` to start your server in watch mode. 
+
+![](https://i.imgur.com/64T50Md.png)
+
+Now you can notice that we are able to post the avatar of the user from github to our discord channel. 
+
+![](https://i.imgur.com/0e5qmWY.png)
+
+```js
+const avatarUrl = req.body.sender.avatar_url;
+```
+
+Here is the source code so far
