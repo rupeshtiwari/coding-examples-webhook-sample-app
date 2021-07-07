@@ -78,7 +78,7 @@ You can visit the web hook payloads at this address http://localhost:4040/inspec
 
 Here is the [code so far](https://github.com/rupeshtiwari/coding-examples-webhook-sample-app/commit/e81078d4a4bc5c64a2b4d59471d4d2a89eee168c)
 
-## Next lets read the avtar url from Github payload
+## Next lets read the Avtar URL from Github payload
 
 When we star/un-star we can read the `avtar_url` of the user and show that in discord. 
 
