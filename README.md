@@ -118,6 +118,21 @@ And use web hook URL to send the transcript.
 
 ![](https://i.imgur.com/hWXuQbe.png)
 
+You can install `Twilio-CLI` globally to send messages from your local development machine. 
+
+`npm i -g twilio-cli`
+
+Next login to `twilio` by running `twilio login`
+
+![](https://i.imgur.com/kSiPNqU.png)
+
+
+Run below script 
+
+```
+twilio plugins:install @twilio-labs/plugin-serverless
+```
+
 ### Reference 
 
 [Web hooks for Beginners - Full Course](https://www.youtube.com/watch?v=41NOoEz3Tzc&t=2584s)
