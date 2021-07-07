@@ -1,3 +1,7 @@
+# Web hook fundamental
+
+![](https://i.imgur.com/61FAXpr.gif)
+
 ## Introduction to Web hook
 
 Create mocked web hook handler at here https://beeceptor.com/
@@ -62,5 +66,7 @@ Now in your github you can go and add the web hook URL that you generated just n
 ![](https://i.imgur.com/C0A8KNI.png)
 
 
+Now if you start github repo you will receive the message to your discord channel. 
 
+![](https://i.imgur.com/61FAXpr.gif)
 
