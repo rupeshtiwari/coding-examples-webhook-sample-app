@@ -99,3 +99,26 @@ const avatarUrl = req.body.sender.avatar_url;
 ```
 
 Here is the [source code so far](https://github.com/rupeshtiwari/coding-examples-webhook-sample-app/commit/a7ac2e96c3e1280cb0b77f4ebfa8beb007253cb1)
+
+## Twilio 
+
+Twilio is a serverless solution that can respond to SMS coming to a virtual phone number. 
+
+Create a flow in Twilio to speak up when someone calls you.
+
+![](https://i.imgur.com/IJ2u1lm.png)
+
+### Record voicemail and send to web hook 
+
+You can record voicemail, convert voice to text 
+
+![](https://i.imgur.com/SB8bWeq.png)
+
+And use web hook URL to send the transcript. 
+
+![](https://i.imgur.com/hWXuQbe.png)
+
+### Reference 
+
+[Web hooks for Beginners - Full Course](https://www.youtube.com/watch?v=41NOoEz3Tzc&t=2584s)
+
