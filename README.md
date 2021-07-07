@@ -2,6 +2,11 @@
 
 ![](https://i.imgur.com/61FAXpr.gif)
 
+- Learn Mocking Web hook 
+- Creating local web hook using express
+- Integrate local web hook with GitHub
+- Integrate Twilio serverless function 
+
 Visit this read me [here as well](http://www.rupeshtiwari.com/coding-examples-webhook-sample-app/) 
 
 ## Introduction to Web hook
@@ -135,9 +140,23 @@ twilio plugins:install @twilio-labs/plugin-serverless
 
 ## Creating Twilio project
 
+Create project 
+
 ```
 twilio serverless:init ideacatcher --empty
 ```
+
+Run project
+
+```
+twilio serverless:start
+```
+
+Navigate to `http://localhost:3000/send-test`
+
+Your server is up and running. 
+
+![](https://i.imgur.com/JFMfcgB.png)
 
 ### Reference 
 
