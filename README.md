@@ -133,6 +133,12 @@ Run below script
 twilio plugins:install @twilio-labs/plugin-serverless
 ```
 
+## Creating Twilio project
+
+```
+twilio serverless:init ideacatcher --empty
+```
+
 ### Reference 
 
 [Web hooks for Beginners - Full Course](https://www.youtube.com/watch?v=41NOoEz3Tzc&t=2584s)
